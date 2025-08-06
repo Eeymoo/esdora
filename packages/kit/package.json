@@ -45,6 +45,16 @@
         "default": "./dist/function/sage.cjs"
       }
     },
+    "./function/tree-map": {
+      "import": {
+        "types": "./dist/types/function/tree-map.d.mts",
+        "default": "./dist/function/tree-map.mjs"
+      },
+      "require": {
+        "types": "./dist/types/function/tree-map.d.cts",
+        "default": "./dist/function/tree-map.cjs"
+      }
+    },
     "./function/tree-path": {
       "import": {
         "types": "./dist/types/function/tree-path.d.mts",
@@ -53,16 +63,6 @@
       "require": {
         "types": "./dist/types/function/tree-path.d.cts",
         "default": "./dist/function/tree-path.cjs"
-      }
-    },
-    "./function/treeMap": {
-      "import": {
-        "types": "./dist/types/function/treeMap.d.mts",
-        "default": "./dist/function/treeMap.mjs"
-      },
-      "require": {
-        "types": "./dist/types/function/treeMap.d.cts",
-        "default": "./dist/function/treeMap.cjs"
       }
     },
     "./promise": {

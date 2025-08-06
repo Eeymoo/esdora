@@ -21,6 +21,8 @@
   _JSON: object
   createSafe: function
   safe: function
+./function/tree-map:
+  treeMap: function
 ./function/tree-path:
   treePathAnalyze: function
 ./promise:
