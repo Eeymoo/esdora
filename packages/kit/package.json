@@ -55,6 +55,16 @@
         "default": "./dist/function/tree-path.cjs"
       }
     },
+    "./function/treeMap": {
+      "import": {
+        "types": "./dist/types/function/treeMap.d.mts",
+        "default": "./dist/function/treeMap.mjs"
+      },
+      "require": {
+        "types": "./dist/types/function/treeMap.d.cts",
+        "default": "./dist/function/treeMap.cjs"
+      }
+    },
     "./promise": {
       "import": {
         "types": "./dist/types/promise.d.mts",
